@@ -6,7 +6,7 @@ A modern, responsive restaurant website built with Next.js 14, TypeScript, and T
 
 **Deployed Link:** [Live on Vercel](https://your-restaurant-domain.vercel.app)
 
-**GitHub Repository:** [Repository Link](https://github.com/yourusername/restaurant-website)
+**GitHub Repository:** [Repository Link](https://github.com/HarishKolupula168/Restaurant)
 
 ## ✨ Features
 
@@ -232,3 +232,6 @@ For questions or support, please reach out:
 ---
 
 **Built with ❤️ using Next.js and modern web technologies**
+=======
+# Restaurant
+>>>>>>> f8ff2a3f2a1021362a7b59045d6ff855a9f6200f
