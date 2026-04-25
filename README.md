@@ -227,7 +227,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or support, please reach out:
 
-Last updated: April 2026
+Last updated: April 2026 - Deployment Fix Applied
 - Email: info@restaurant.com
 - Phone: +1 (555) 123-4567
 
