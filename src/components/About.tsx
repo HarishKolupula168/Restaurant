@@ -72,7 +72,7 @@ const About = () => {
               </p>
               <p>
                 We believe that great dining is more than just food—it&apos;s about creating memories, 
-                fostering connections, and celebrating life's special moments. Our commitment to 
+                fostering connections, and celebrating life&apos;s special moments. Our commitment to 
                 quality, innovation, and service has earned us numerous accolades and, more importantly, 
                 the loyalty of our cherished guests.
               </p>
