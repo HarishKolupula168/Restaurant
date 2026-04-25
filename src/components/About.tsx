@@ -1,4 +1,6 @@
 
+import Image from 'next/image'
+
 const About = () => {
   const stats = [
     { icon: '🏆', label: 'Years of Excellence', value: '15+' },
@@ -66,10 +68,10 @@ const About = () => {
               <p>
                 Our journey began in 2009 with a simple vision: to create a dining destination 
                 where exceptional food meets warm hospitality. What started as a small family-run 
-                establishment has grown into one of the region's most celebrated restaurants.
+                establishment has grown into one of the region&apos;s most celebrated restaurants.
               </p>
               <p>
-                We believe that great dining is more than just food—it's about creating memories, 
+                We believe that great dining is more than just food—it&apos;s about creating memories, 
                 fostering connections, and celebrating life's special moments. Our commitment to 
                 quality, innovation, and service has earned us numerous accolades and, more importantly, 
                 the loyalty of our cherished guests.
@@ -82,9 +84,11 @@ const About = () => {
             </div>
           </div>
           <div className="relative">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=700&fit=crop"
               alt="Restaurant Interior"
+              width={600}
+              height={700}
               className="rounded-lg shadow-xl"
             />
             <div className="absolute -bottom-6 -left-6 bg-primary-600 text-white p-6 rounded-lg shadow-xl">
@@ -99,9 +103,11 @@ const About = () => {
           {features.map((feature, index) => (
             <div key={index} className="group">
               <div className="overflow-hidden rounded-lg mb-6">
-                <img
+                <Image
                   src={feature.image}
                   alt={feature.title}
+                  width={400}
+                  height={300}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>

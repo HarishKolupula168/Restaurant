@@ -142,7 +142,7 @@ const Contact = () => {
 
             {submitStatus === 'success' && (
               <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg mb-6">
-                Thank you for your reservation! We'll contact you shortly to confirm.
+                Thank you for your reservation! We&apos;ll contact you shortly to confirm.
               </div>
             )}
 

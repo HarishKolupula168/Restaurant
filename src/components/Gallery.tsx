@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
@@ -126,9 +127,11 @@ const Gallery = () => {
               onClick={() => openLightbox(image.id)}
             >
               <div className="aspect-w-16 aspect-h-12">
-                <img
+                <Image
                   src={image.src}
                   alt={image.alt}
+                  width={800}
+                  height={600}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -158,9 +161,11 @@ const Gallery = () => {
               >
                 <span className="text-2xl">✖️</span>
               </button>
-              <img
+              <Image
                 src={selectedImageData.src}
                 alt={selectedImageData.alt}
+                width={1200}
+                height={800}
                 className="max-w-full max-h-full rounded-lg"
               />
               <p className="text-white text-center mt-4">
