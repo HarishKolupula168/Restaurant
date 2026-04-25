@@ -226,12 +226,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 For questions or support, please reach out:
+
+Last updated: April 2026
 - Email: info@restaurant.com
 - Phone: +1 (555) 123-4567
 
 ---
 
 **Built with ❤️ using Next.js and modern web technologies**
-=======
-# Restaurant
->>>>>>> f8ff2a3f2a1021362a7b59045d6ff855a9f6200f
